@@ -1,0 +1,164 @@
+@import url(../Css/font.css);
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.nav__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.nav__title .link{
+    display: flex;
+    column-gap: 15px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Roboto-Bold';
+}
+
+.nav__title .link .list1{
+    color: #EF4423;
+}
+
+.nav__title .link .list {
+    color: #3A3838;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Roboto-Bold';
+}
+
+.header__title-post{
+    margin-bottom: 36px;
+}
+
+.main{
+    width: 100%;
+}
+
+.main__posters {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card{
+    width: 350px;
+    align-items: center;
+}
+
+.text1{
+    font-family: 'Roboto-Bold';
+    font-size: 19px;
+    line-height: 23px;
+    color: white;
+}
+
+.text2{
+    font-family:'Roboto-Regular';
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.board1{
+    background-color: #B71C1C;
+    widows: 350px;
+    /* height: 380px; */
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: -5px;
+}
+
+.board2{
+    background-color: #6A1B9A;
+    padding: 15px;
+    padding-bottom: 8px;
+}
+
+.board3{
+    background-color: #303F9F;
+    padding:8px 15px 16px 14px;
+    margin-top: -5px;
+}
+
+.board4{
+    background-color: #00695C;
+    padding:14px 15px 8px 15px;
+}
+
+.main2 h1{
+color: #3A3838;
+font-family: 'Roboto-Bold';
+font-size: 22px;
+font-style: normal;
+line-height: normal;
+text-align: center;
+padding: 40px 0;
+}
+
+.section_title {
+    background: #EDEDED;
+    margin-bottom: 50px;
+}
+
+.section_title .container{
+    display: flex;
+}
+
+.section_title .left{
+    padding: 20px 0 0 30px;
+}
+
+.section_title .left h3 {
+    color: #3A3838;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: 'Roboto-Bold';
+    padding-bottom: 30px;
+}
+
+.section_title .left p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #686868;
+}
+
+footer{
+    background-color: #3A3838;
+    padding-top: 28px;
+    padding-bottom: 29px;
+}
+
+.footer__about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    column-gap: 15px;
+}
+
+.link a{
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+    line-height: 21px;
+    color:#FFFFFF;
+}
+
+.link .list1{
+    color: #EF4423;
+}
