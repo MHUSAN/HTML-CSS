@@ -1,0 +1,126 @@
+@import url(./font.css);
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto-Regular';
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.nav__content-link{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.nav__content-link .nav__content-item{
+    color: #8C8A8A;
+    font-family: 'Roboto-Regular';
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.boart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.boart .leftbox{
+    background-color: #F0F0F0;
+    width: 730px;
+}
+
+.boart .leftbox .text1{
+    width: 595px;
+    padding-left: 40px;
+}
+
+.boart .leftbox .text1 h1{
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #4581B7;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.boart .leftbox .text1 p{
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+    padding-bottom: 51px;
+}
+
+.boart .rightbox{
+    background-color: #F0F0F0;
+    width: 350px;
+    padding-top: 50px;
+}
+
+.boart .rightbox .text2 {
+    padding-left: 40px;
+}
+
+.boart .rightbox .text2 h1{
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #4581B7;
+    padding-bottom: 25px;
+}
+
+.boart .rightbox .text2 p{
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.bottom {
+    background-color: #F0F0F0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.bottom .right p{
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.bottom .right h1 {
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    margin-top: 10px;
+    color: #808080;
+}
