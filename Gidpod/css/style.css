@@ -1,0 +1,486 @@
+@import url(./font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Roboto-Regular' ;
+}
+
+img{
+    object-fit: contain;
+    max-width: 100%;
+}
+
+body{
+    background: rgba(245,243,244,255);
+}
+.container{
+    width: 1756px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+    column-gap: 48px;
+}
+
+.nav__list-link{
+    line-height: 24px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+.nav__button{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(249, 249, 249, 1);
+    background: rgba(18, 16, 12, 1);
+    padding: 6px 22px 6px 23px;
+    border-radius: 12px;
+}
+
+.Code{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Code__left-title{
+    font-size: 80px;
+    line-height: 88px;
+    color: rgba(18, 16, 12, 1);
+    font-family: "Roboto-Bold";
+    margin-top: 154px;
+}
+
+.Code__left-text{
+    font-size: 23px;
+    line-height: 32px;
+    color: rgba(18, 16, 12, 0.7);
+    margin-top: 40px;
+}
+
+.Code__left-BtnYellow{
+    color: rgba(18, 16, 12, 1);
+    font-size: 18px;
+    line-height: 22.5px;
+    font-family: "Roboto-Bold";
+    background: rgba(255, 174, 51, 1);
+    padding: 11px 46px 12px 46px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.Code__left-BtnText{
+    line-height: 24px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+.Code__left-Btn{
+    display: flex;
+    column-gap: 24px;
+    margin-top: 46px;
+}
+
+.Code__left-SocialMedia{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.Project__Title{
+    font-size: 54px;
+    line-height: 63.72px;
+    text-align: center;
+    color: rgba(18, 16, 12, 1);
+    font-family: "Roboto-Bold";
+    margin-top: 176px;
+    margin-bottom: 178px;
+}
+
+.Project__Title span{
+    color: rgba(153, 151, 149, 1);
+    text-decoration: line-through;
+    font-family:'Roboto-Regular' ;
+}
+
+.Project__left{
+    padding-top:216px ;
+}
+
+.Project__left-Title{
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(18, 16, 12, 1);
+    font-family: "Roboto-Bold";
+}
+
+.Project__left-Text{
+    font-size: 24px;
+    line-height: 31.92px;
+    color: rgba(18, 16, 12, 0.7);
+    padding-top: 8px;
+}
+
+.Project__left-Btn{
+    display: flex;
+    column-gap: 16px;
+    padding-top: 155px;
+}
+
+.Project__left-BtnMini{
+    background: rgba(255, 174, 51, 1);
+    border-radius: 10.5px;
+    padding: 7px 18px 9px 18px;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(18, 16, 12, 1);
+    display: inline-block;
+    font-family: "Roboto-Bold";
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Project__left-BtnB{
+    background: rgba(255, 176, 174, 1);
+}
+
+.Project{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Project__right{
+    padding-top: 176px;
+}
+
+.Remote
+{
+    text-align: center;
+}
+
+.Remote__Title{
+    font-size: 54px;
+    line-height: 71.82px;
+    color: rgba(18, 16, 12, 1);
+    margin-top: 394px;
+    font-family: "Roboto-Bold";
+    margin-bottom: 48px;
+}
+
+.Remote__Text{
+    font-size: 24px;
+    line-height: 31.92px;
+    color: rgba(18, 16, 12, 0.7);
+    margin-top: 49px;
+}
+
+.Remote__Browsers{
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-top: 48px;
+    margin-bottom: 179px;
+}
+
+.developers__Title{
+    font-size: 54px;
+    line-height: 63.72px;
+    color: rgba(18, 16, 12, 1);
+    font-family: "Roboto-Bold";
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.developers__Cards-Card{
+    width: 384px;
+    background: rgba(255, 255, 255, 1);
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.developers__Cards-CardText{
+    color: rgba(18, 16, 12, 1);
+    line-height: 24px;
+}
+
+.gg {
+    padding-top: 10px;
+}
+
+.developers__Cards-CardNameTittle{
+    display: flex;
+    column-gap: 12px;
+    padding-top: 16px;
+}
+
+.developers__Cards-CardNameTittleText h4{
+    line-height: 24px;
+    color: rgba(18, 16, 12, 1);
+    padding-bottom: 8px;
+}
+
+.developers__Cards-CardNameTittleText p{
+    line-height: 24px;
+    color: rgba(18, 16, 12, 1);
+}
+
+.developers__Cards-CardNameTittleText p span{
+    color: rgba(18, 16, 12, 1);
+    font-family: "Roboto-Bold";
+}
+
+.developers__Cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.developers__support{
+    width: 1140px;
+    padding: 88px 38px 199px 38px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 37px;
+}
+
+.Connect__Title{
+    font-size: 54px;
+    line-height: 71.82px;
+    color: rgba(18, 16, 12, 1);
+    text-align: center;
+    padding-bottom: 48px;
+    font-family: "Roboto-Bold";
+}
+
+.Cards__leftCard{
+    width: 642px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Cards__leftCard-Title{
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(18, 16, 12, 1);
+    font-family: "Roboto-Bold";
+    padding-top: 56px;
+    padding-bottom: 8px;
+}
+.Cards__leftCard-Text{
+    font-size: 24px;
+    line-height: 31.92px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+.Cards__leftCard-Button{
+    width: 262px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    align-items: center;
+    background: rgba(252, 109, 38, 1);
+    border-radius: 12px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.Cards__leftCard-Button a {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Roboto-Bold";
+}
+
+.Cards__leftCard-Meta{
+    margin-top: 64px;
+}
+
+.Cards__leftCard-GitHub{
+    background: rgba(0, 0, 0, 1);
+}
+
+.Cards__leftCard-Bitbusket{
+    background: rgba(38, 132, 255, 1);
+    margin-bottom: 64px;
+}
+
+.leftCards__CardBtw{
+    background: rgba(255, 228, 188, 1);
+    padding: 1px 16px 0 16px;
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 31.92px;
+    color: rgba(18, 16, 12, 0.7);
+    display: inline-block;
+    margin: 6px 0 86px 0;
+}
+
+.Cards__rightCard{
+    width: 642px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Cards__rightCard-Title{
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(18, 16, 12, 1);
+    font-family: "Roboto-Bold";
+    padding-top: 56px;
+}
+
+.Cards__rightCard-Text{
+    font-size: 23px;
+    line-height: 32px;
+    color:rgba(18, 16, 12, 0.7) ;
+    padding-top: 7px;
+    margin-bottom: 32px;
+}
+
+.Cards__rightCardBox{
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: rgba(249, 249, 249, 1);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px 12px 16px;
+    margin-top: 12px;
+}
+
+
+.Connect__Cards{
+    display: flex;
+    column-gap: 26px;
+    justify-content: center;
+}
+
+.rightCardBox__miniLeftBox{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.rightCardBox__miniLeftBox-Title{
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+.rightCardBox__miniRightBtn{
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    background: black;
+    display: inline-block;
+    padding: 7px 12px 9px 12px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 160px;
+}
+
+.Top{
+    width: 852px;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+
+.Top__Menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Top__Menu-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.Top__Menu-listTitle{
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "Roboto-Bold";
+    color: rgba(18, 16, 12, 1);
+}
+
+.Top__Menu-listLink{
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+.Top__Bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    padding-bottom: 35px;
+}
+
+.Top__Bottom-Logo{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.Top__Bottom-Logo{
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+
+.Top__Bottom-SocialMedia{
+    display: flex;
+    column-gap: 16px;
+}
+
+.Bottom{
+    background: rgba(236, 231, 229, 1);
+    height: 48px;
+    align-items: center;
+    padding-left: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+}
+
+.Bottom__Text{
+    line-height: 24px;
+    color: rgba(18, 16, 12, 0.7);
+}
+
+.Bottom__Text span{
+    border-bottom: 1px solid rgba(18, 16, 12, 0.59);
+}
+
+.Bottom__Btn{
+    line-height: 24px;
+    color:rgba(18, 16, 12, 0.7);
+    background: rgba(249, 249, 249, 1);
+    border-radius: 8px;
+    padding: 4px 24px;
+}
