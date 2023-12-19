@@ -1,0 +1,50 @@
+@import url(font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto-Regular";
+}
+
+body {
+    background: rgba(4, 13, 31, 1);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.asd {
+    background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 24px 0 ;
+    column-gap: 24px;
+}
+
+.span__asd{
+    width: 166px;
+    line-height: 18px;
+    font-family:"Comfortaa-Regular";
+}
+
+.fa{
+    animation: rotate 8s infinite linear;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotateX(0);
+    }
+    100%{   
+        transform: rotateY(360deg);
+    }
+}
+
